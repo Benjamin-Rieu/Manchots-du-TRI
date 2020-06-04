@@ -1,0 +1,93 @@
+@import url("Components/banner.css");
+@import url("Components/button.css");
+@import url("Components/card.css");
+@import url("Components/img.css");
+@import url("Components/cards.css");
+@import url("Components/navbar.css");
+@import url("Components/contacts.css");
+@import url("Components/typeform.css");
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Roboto&display=swap");
+
+.container h2 {
+	text-align: center;
+}
+
+.container {
+	width:95%;
+	margin:40px auto;
+
+}
+
+body {
+	background-color: rgba(0,0,0,0.01);
+	background-size: cover;
+	font-family: 'Lora', serif;
+	font-size: 16px;
+
+}
+
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	
+}
+
+h2, h3 {
+	color: #3998CC;
+}
+
+#philosophie{
+	background-color: white;
+	box-shadow: 0 0 15px rgba(0,0,0,0.1);
+	width: calc(100% - 30px);
+	border-radius: 3px;
+	text-align: center;
+	padding: 15px;
+	margin: 20px auto;
+
+}
+
+#philosophie p{
+}
+
+a{text-decoration: none;
+	color: black;
+
+}
+
+#philosophie-link{
+	padding-top: 60px;
+	margin-top: -60px;
+	color: #3998CC;
+}
+
+#equipe-link{
+	padding-top: 60px;
+	margin-top: -60px;
+	color: #3998CC;
+}
+
+#entrainement-link{
+	padding-top: 60px;
+	margin-top: -60px;
+	color: #3998CC;
+}
+
+#bonus-link{
+	padding-top: 60px;
+	margin-top: -60px;
+	color: #3998CC;
+}
+
+#suivre-link{
+	padding-top: 60px;
+	margin-top: -60px;
+	color: #3998CC;
+}
+
+#contacter-link{
+	padding-top: 60px;
+	margin-top: -60px;
+	color: #3998CC;
+}
+

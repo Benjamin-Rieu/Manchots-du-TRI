@@ -1,0 +1,42 @@
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding:4px 20px;
+	background-color: white;
+	position: fixed;
+	top: 0;
+	width: calc(100% - 40px);
+}
+
+.navbar img{
+	width: 70px;
+}
+
+
+.navbar li{
+	display: inline;
+	margin-right : 15px;
+}
+
+.navbar ul{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	color: #3998CC;
+}
+
+.navbar a{
+	color: #3998CC;
+	font: strong;
+}
+
+.navbar a:hover{
+	opacity: 0.5;
+}
+
+@media (max-width: 800px) {
+	.li-non-responsive{
+		display: none !important;
+	}
+}

@@ -1,0 +1,18 @@
+.contacts li {
+	display: inline;
+	font-size: 70px;
+	color: #3998CC;
+}
+
+.contacts {
+	display: flex;
+	justify-content: center;
+}
+
+.contacts i {
+	color: #3998CC;
+}
+
+.contacts i:hover{
+	opacity: 0.5;
+}
